@@ -19,14 +19,14 @@ public class LargestElementInArray{
      * thus giving us the largest element in the array.
      */
     public static void main(String[] args){
-        // Initialize the array
+        // Initializing the array
         int[] array = {10 , 23 , 9};
         //Initialize max as first element in array
         int maxElement = array[0];
 
-        //Loop through the array
+        //iterate through the array
         for (int i = 0 ; i < array.length ; i++) {
-            //Compares the elements with maxElement
+            //Comparing the elements with maxElement
             if (array[i] > maxElement) {
                 maxElement = array[i];
             }
